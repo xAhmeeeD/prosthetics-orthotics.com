@@ -35,6 +35,7 @@ body{
   .card{
 
     position: relative;
+    margin-right: 2px;
 
 
 
@@ -74,6 +75,7 @@ body{
   }
 
   .card:hover  .face.face1{
+    
 
     transform: translateY(0);
 
@@ -99,8 +101,8 @@ body{
 
   .lard:hover  .face.face1{
 
-    transform: translateY(0);
 
+    transform: translateY(0);
     box-shadow:
 
     inset 0 0 60px whitesmoke,
@@ -122,6 +124,7 @@ body{
   }
 
   .dark:hover  .face.face1{
+
 
     transform: translateY(0);
 
@@ -200,6 +203,7 @@ body{
 
 
   .fard:hover  .face.face1{
+    
 
     transform: translateY(0);
 
@@ -240,6 +244,7 @@ body{
   }
 
   .card:hover .face.face1 .content{
+    
 
     opacity: 1;
 
@@ -273,6 +278,7 @@ body{
 /*For the background color*/
   .face.face2{
 
+
     position: relative;
 
     background: whitesmoke;
@@ -294,12 +300,15 @@ body{
   }
 
   .card:hover .face.face2{
+    border-radius: 20%;
+ 
 
     transform: translateY(0);
 
   }
 
-.lard:hover .face{
+.lard:hover .face.face2{
+  border-radius: 20%;
 
   transform: translateY(0);
 
@@ -308,25 +317,32 @@ body{
 
 
 
-.dark:hover .face{
+.dark:hover .face.face2{
+  border-radius: 20%;
 
   transform: translateY(0);
 
 }
 
-.pard:hover .face{
+.pard:hover .face.face2{
+  border-radius: 20%;    
+
 
   transform: translateY(0);
 
 }
 
-.mard:hover .face{
+.mard:hover .face.face2{
+  border-radius: 20%;    
+
 
   transform: translateY(0);
 
 }
 
-.fard:hover .face{
+.fard:hover .face.face2{
+  border-radius: 20%;
+
 
   transform: translateY(0);
 
@@ -375,6 +391,7 @@ body{
 
   }
 
+  
   .button {
     transition-duration: 0.4s;
   }
