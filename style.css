@@ -270,7 +270,7 @@ body{
      transition: .5s;
 
   }
-
+/*For the background color*/
   .face.face2{
 
     position: relative;
@@ -374,3 +374,60 @@ body{
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 
   }
+
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #0ff; 
+    color: white;
+  }
+  .button1 {
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: grey; 
+    color: white;
+  }
+  .button2 {
+    transition-duration: 0.4s;
+  }
+  
+  .button2:hover {
+    background-color: #ff560b; 
+    color: white;
+  }
+  .button3 {
+    transition-duration: 0.4s;
+  }
+  
+  .button3:hover {
+    background-color: #34a56f; 
+    color: white;
+  }
+
+   .button4 {
+    transition-duration: 0.4s;
+  }
+  
+  .button4:hover {
+    background-color: red; 
+    color: white;
+  }
+
+     .button5 {
+    transition-duration: 0.4s;
+  }
+  
+  .button5:hover {
+    background-color: yellow; 
+    color: white;
+  }
+
+
+
+  
+
+
