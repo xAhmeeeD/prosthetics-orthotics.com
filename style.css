@@ -450,7 +450,7 @@ body{
   
 
 
-  .float{
+ /* .float{
     position:fixed;
     width:60px;
     height:60px;
@@ -467,4 +467,5 @@ body{
   
   .my-float{
     margin-top:8px;
-  }
+  }*/
+
